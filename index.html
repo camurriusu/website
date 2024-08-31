@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home-container">
+        <section class="text-content">
+            <h1>Welcome to my personal page!</h1>
+            <p>
+                Hello, I'm Riccardo, a 2<sup>nd</sup> year student at Trinity College Dublin studying CS.<br>
+                Feel free to navigate around my webpage.
+            </p>
+            <p>
+                What are my interests? I am fascinated by the world of cybersecurity and low level programming.<br>
+                I always love to learn things outside of college in my own time, such as Python, C++, web scraping, etc.<br>
+            </p>
+            <p>
+                I am creative, determined, and ambitious. I love music, drawing, and reading too.<br>
+                Right now I am working on finishing ABRSM Grade 8 Piano Performance.
+            </p>
+            <p>
+                I apply what I learn too. For example, I take security relatively seriously by using a password manager,<br>
+                security keys, and a hardened browser. I use Win11 which is a bit of a contradiction to what I just said.
+            </p>
+            <p>
+                I achieved 89/100 average in 1<sup>st</sup> year of college and 613 points in the Leaving Cert.<br>
+                I am fluent in English and Italian, and C1 level in German.
+            </p>
+            <p>
+                My socials:
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/rsriggi/">LinkedIn</li>
+                    <li><a href="https://github.com/camurriusu">GitHub</a>
+                </ul>
+            </p>
+            <p>
+                Some of the cool resources I follow:
+                <ul>
+                    <li><a href="https://www.privacyguides.org/">Privacy Guides</li>
+                    <li><a href="https://www.learncpp.com">learncpp</a>
+                    <li><a href="https://beej.us/">beej</a>
+                    <li><a href="https://overthewire.org/wargames/">overthewire</a>
+                    <li><a href="https://www.youtube.com/@LowLevelLearning">LowLevelLearning</li>
+                    <li><a href="https://www.youtube.com/@Fireship">Fireship</li>
+                    <li><a href="https://www.youtube.com/@Acerola_t/">Acerola</li>
+                    <li><a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_">C++ pointers playlist</a>
+                    <li><a href="https://www.youtube.com/playlist?list=PLVuwZXwFua-0Ks3rRS4tIkswgUmDLqqRy">Zero to Geo</a>
+                    <li><a href="https://www.youtube.com/@garyseconomics/">Gary's Economics</a>
+                </ul>
+            </p>
+        </section>
+        <aside class="home-side">
+            <p>Where I'm from:</p>
+            <p id="loading-text">Loading iframe...</p>
+            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1628274.7713010977!2d12.470076205037023!3d37.14736904864836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13106268d05359b3%3A0x10b042967b67d50!2sSicily%2C%20Italy!5e0!3m2!1sen!2sie!4v1724756563535!5m2!1sen!2sie" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>
+                Todo:<br>
+                <ul>
+                    <li>Study for Foundation Scholarship Examinations
+                    <li>Make this website available as a .onion!
+                </ul>
+            </p>
+        </aside>
+    </main>
+    <script>
+        document.getElementById('google-map').onload = function() {
+            document.getElementById('loading-text').style.display = 'none';
+        };
+    </script>
+</body>
+</html>

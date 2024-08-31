@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("/fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: Handjet;
+    src: url("/fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf");
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    padding: 1em;
+}
+
+main {
+    padding: 1em;
+}
+
+a, h1, h2 {
+    font-family: Handjet, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: cyan;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #00d0ff;
+}
+
+p, li {
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 4em;
+    display: flex;
+}
+
+nav ul li a {
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555555;
+    text-decoration: cyan wavy underline;
+    border-radius: 4px;
+}
+
+aside {
+    background-color: #333333;
+}
+
+/* Home page layout */
+@media (min-width: 768px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 960px) {
+    .home-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.home-container {
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.home-side {
+    flex: 1;
+    align-items: center;
+    margin: 0 10% 0 0;
+    padding: 5px 1em 5px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex: 3;
+}
+
+/* Blog page layout */
+@media (min-width: 768px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 960px) {
+    .blog-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.blog-container {
+    align-items: flex-start;
+}
+
+.blog-side {
+    flex: 1;
+    padding: 5px 1em 5px;
+    border-radius: 14px;
+}
+
+#post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#post-list li {
+    margin-bottom: 5px;
+}
+
+#post-list li a {
+    color: cyan;
+    text-decoration: none;
+}
+
+#post-list li a:hover {
+    color: #ffffff;
+}
+
+#post-content {
+    flex: 2;
+    padding: 0 12em 0 6em;
+}
+
+#post-body {
+    white-space: pre-wrap;
+}
