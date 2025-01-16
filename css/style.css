@@ -27,7 +27,7 @@ main {
 a {
     font-family: Handjet, sans-serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 12px;
     color: cyan;
 }
 
@@ -37,13 +37,12 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Ubuntu, sans-serif;
-    font-size: 30px;
 }
 
 p, li {
     font-family: Ubuntu, sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 nav {
