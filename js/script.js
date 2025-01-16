@@ -9,7 +9,7 @@ const firstPostTitle = 'First post?'
 // Function to fetch and display the list of blog posts
 function loadPostList() {
     let postDict = new Map();
-    postDict.set('First post?', 'post1.md');
+    postDict.set('How I update this blog', 'post1.md');
 
     const postList = document.getElementById('post-list');
 
