@@ -4,7 +4,7 @@ const md = window.markdownit();
 // Path to the posts directory
 const postsDirectory = 'posts/';
 
-const firstPostTitle = 'First post?'
+const firstPostTitle = 'How I update this blog'
 
 // Function to fetch and display the list of blog posts
 function loadPostList() {
