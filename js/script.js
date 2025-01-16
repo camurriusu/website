@@ -4,12 +4,13 @@ const md = window.markdownit();
 // Path to the posts directory
 const postsDirectory = 'posts/';
 
-const firstPostTitle = 'How I update this blog'
+const latestPostTitle = 'Favicons & a letter to my future employer'
 
 // Function to fetch and display the list of blog posts
 function loadPostList() {
     let postDict = new Map();
     postDict.set('How I update this blog', 'post1.md');
+    postDict.set('Favicons & a letter to my future employer', 'post2.md');
 
     const postList = document.getElementById('post-list');
 
@@ -24,7 +25,7 @@ function loadPostList() {
     }
 
     if (postDict.size > 0) {
-        loadPost(postDict.get(firstPostTitle));
+        loadPost(postDict.get(latestPostTitle));
     }
 }
 
