@@ -1,3 +1,4 @@
+19/1/25 00:44:24
 # Abstract
 This one is only for the music enjoyers. Actually, that's a lie, the people who enjoy music the most don't even think about this stuff. So this is for the people who instead like audio.  
   
