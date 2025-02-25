@@ -10,7 +10,7 @@ const latestPostTitle = 'A bad guide to fixing your bad speakers';
 function loadPostList() {
     let postDict = new Map();
     postDict.set('A bad guide to fixing your bad speakers', 'post3.md');
-    postDict.set('Favicons & a letter to my future employer', 'post2.md');
+    postDict.set('An insignificant update about favicons', 'post2.md');
     postDict.set('How I update this blog', 'post1.md');
 
     const postList = document.getElementById('post-list');
