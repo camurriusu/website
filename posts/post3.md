@@ -6,7 +6,7 @@ Picture this, you just bought a new stereo and lied about the price to your wife
 
 After hours of research (while hiding your growing frustration from your significant other), you find a whole new chapter in your audiophile journey. The art of room acoustics. You realise you put your stereo in a square room with tile floor and windows around it. But you can't put it anywhere else! You're forced to spend thousands on treatment so you can actually hear what your state of the art overpriced speakers can offer.  
   
-That was my interpretation on what the most eventful day is to D4 dad.  
+That was my interpretation on what the most eventful day is to the average D4 dad.  
   
 # Room size
 Easy - small room bad, square room bad, big rectangle room good. Kind of useless information for most people, except for those who happen to have loads of different shaped rooms that happen to be free.  
