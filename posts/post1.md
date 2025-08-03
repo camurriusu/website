@@ -1,3 +1,7 @@
+3/8/25 12:04
+I think I might be an idiot. I've been paying (GitHub's money not mine) for a droplet when using static apps are free, so that's 50$ down the drain.
+However the other 150$ is expiring this month, which I didn't know it could do, and I'm trying to figure out ways (AI?) on how to burn the money away!
+
 # The workings of this website
 ## An overview
 This website is hosted using DigitalOcean. I think I got free credits from GitHub or something for being a student, so I figured I might as well use them.  
