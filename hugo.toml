@@ -23,15 +23,19 @@ enableRobotsTXT = true
 # see https://gohugo.io/content-management/multilingual/
 [languages]
   [languages.en]
-    title = "Bear Cub"
+    title = "Riccardo's Page"
     languageName = "English"
-    LanguageCode = "en-GB"
+    languageCode = "en-GB"
     contentDir = "content/english"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
   [languages.it]
-    title = "Bear Cub"
+    title = "La pagina di Riccardo"
     languageName = "Italiano"
-    LanguageCode = "it-IT"
+    languageCode = "it-IT"
     contentDir = "content/italiano"
+    [languages.it.params]
+      madeWith = "Fatto con [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   # The description of your website
@@ -70,12 +74,6 @@ enableRobotsTXT = true
   # `generateSocialCard` to false, you can prevent this behavior. For more
   # information see layouts/partials/social_card.html
   generateSocialCard = true
-
-  # Social media. Delete any item you aren't using to make sure it won't show up
-  # in your website's metadata.
-  [params.social]
-    twitter = "example" # Twitter handle (without '@')
-    facebook_admin = "0000000000" # Facebook Page Admin ID
 
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post. You can hide the "reply to"
