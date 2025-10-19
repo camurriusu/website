@@ -18,6 +18,9 @@ enableRobotsTXT = true
     # to people with poor eyesight. For more information about color contrast
     # and accessibility, see https://web.dev/color-and-contrast-accessibility/
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Multilingual mode config. More for information about how to setup translation,
 # see https://gohugo.io/content-management/multilingual/
@@ -25,14 +28,14 @@ enableRobotsTXT = true
   [languages.en]
     title = "Riccardo's Page"
     languageName = "English"
-    languageCode = "en-GB"
+    LanguageCode = "en-GB"
     contentDir = "content/english"
     [languages.en.params]
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
   [languages.it]
     title = "La pagina di Riccardo"
     languageName = "Italiano"
-    languageCode = "it-IT"
+    LanguageCode = "it-IT"
     contentDir = "content/italiano"
     [languages.it.params]
       madeWith = "Fatto con [Bear Cub](https://github.com/clente/hugo-bearcub)"

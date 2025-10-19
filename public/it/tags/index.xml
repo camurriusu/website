@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on La pagina di Riccardo</title>
+    <link>//localhost:1313/it/tags/</link>
+    <description>Recent content in Tags on La pagina di Riccardo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-IT</language>
+    <managingEditor>riccardo@riggi.me (Riccardo Riggi)</managingEditor>
+    <webMaster>riccardo@riggi.me (Riccardo Riggi)</webMaster>
+    <copyright>Riccardo Salvatore Riggi (CC BY-NC 4.0)</copyright>
+    <atom:link href="//localhost:1313/it/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
