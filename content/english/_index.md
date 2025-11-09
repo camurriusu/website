@@ -7,7 +7,7 @@ weight: 1
 
 # Welcome
 
-[LinkedIn](https://linkedin.com/in/rsriggi) | [Photography](https://commons.wikimedia.org/wiki/Special:ListFiles?limit=500&user=Riccardo+Riggi)
+[LinkedIn](https://linkedin.com/in/rsriggi) | [GitHub](https://github.com/camurriusu) | [Photography](https://commons.wikimedia.org/wiki/Special:ListFiles?limit=500&user=Riccardo+Riggi)
 
 Work in progress
 

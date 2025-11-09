@@ -7,7 +7,7 @@ weight: 1
 
 # Ma quale italiano e italiano
 
-[LinkedIn](https://linkedin.com/in/rsriggi) | [Foto](https://commons.wikimedia.org/wiki/Special:ListFiles?limit=500&user=Riccardo+Riggi)
+[LinkedIn](https://linkedin.com/in/rsriggi) | [GitHub](https://github.com/camurriusu) | [Foto](https://commons.wikimedia.org/wiki/Special:ListFiles?limit=500&user=Riccardo+Riggi)
 
 Cu st'arancine m'arricriu
 

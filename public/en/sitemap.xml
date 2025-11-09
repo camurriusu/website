@@ -14,8 +14,6 @@
                 href="//localhost:1313/"
                 />
   </url><url>
-    <loc>//localhost:1313/hello/</loc>
-  </url><url>
     <loc>//localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
