@@ -7,7 +7,9 @@ weight: 1
 
 # Welcome
 
-This is a work in progress.
+[LinkedIn](https://linkedin.com/in/rsriggi) | [Photography](https://commons.wikimedia.org/wiki/Special:ListFiles?limit=500&user=Riccardo+Riggi)
+
+Work in progress
 
 <pre class="ascii-art">
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
